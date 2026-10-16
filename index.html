@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f6f1eb">
+  <title>Vanilla Coffee — Балашиха</title>
+  <meta name="description" content="Vanilla Coffee — уютные кофейни в Балашихе. Кофе, сезонные напитки, эклеры, круассаны и атмосфера, куда хочется возвращаться.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Vanilla Coffee">
+      <span class="brand-mark">V</span>
+      <span class="brand-copy"><b>Vanilla</b><small>coffee</small></span>
+    </a>
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="pill" href="#form">Связаться</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <span class="kicker">Балашиха · Vanilla Coffee</span>
+        <h1>Кофе,<br><em>в который хочется вернуться.</em></h1>
+        <p>Тёплое городское кафе с авторскими напитками, десертами и спокойной атмосферой. Место для короткой паузы, встречи или любимого кофе по дороге.</p>
+        <div class="actions">
+          <a class="btn primary" href="#form">Оставить заявку</a>
+          <a class="btn secondary" target="_blank" rel="noopener" href="https://yandex.ru/maps/-/CXBhUONT">На Яндекс Картах ↗</a>
+        </div>
+        <div class="metrics">
+          <div><strong>5.0</strong><span>рейтинг на Яндекс Картах*</span></div>
+          <div><strong>Good place</strong><span>награда Яндекса 2026*</span></div>
+          <div><strong>4 точки</strong><span>в Балашихе*</span></div>
+        </div>
+      </div>
+
+      <div class="hero-scene" id="heroScene" aria-hidden="true">
+        <div class="orb orb-a" data-depth="0.15"></div>
+        <div class="orb orb-b" data-depth="0.28"></div>
+        <div class="glass-card card-a" data-depth="0.35">
+          <span class="mini">season</span>
+          <b>lavender<br>blueberry</b>
+        </div>
+        <div class="glass-card card-b" data-depth="0.22">
+          <span class="mini">daily</span>
+          <b>08:00—21:00</b>
+        </div>
+
+        <div class="cup-wrap" data-depth="0.48">
+          <div class="cup-3d">
+            <div class="cup-rim"><span></span></div>
+            <div class="cup-body"></div>
+            <div class="cup-handle"></div>
+            <div class="steam s1"></div>
+            <div class="steam s2"></div>
+          </div>
+        </div>
+
+        <div class="hero-word">vanilla</div>
+      </div>
+    </section>
+
+    <section class="line-strip">
+      <div class="marquee">
+        <span>кофе</span><i>•</i><span>эклеры</span><i>•</i><span>круассаны</span><i>•</i><span>лимонады</span><i>•</i><span>bubble tea</span><i>•</i><span>сезонное меню</span><i>•</i>
+        <span>кофе</span><i>•</i><span>эклеры</span><i>•</i><span>круассаны</span><i>•</i><span>лимонады</span><i>•</i><span>bubble tea</span><i>•</i><span>сезонное меню</span><i>•</i>
+      </div>
+    </section>
+
+    <section id="about" class="section intro">
+      <div class="intro-sticky reveal">
+        <span class="kicker">О Vanilla Coffee</span>
+        <h2>Маленькое место<br>с <em>большим настроением.</em></h2>
+      </div>
+      <div class="intro-copy">
+        <article class="reveal">
+          <span>01</span>
+          <h3>Уют без лишнего шума</h3>
+          <p>Гости описывают Vanilla Coffee как спокойное, красивое и уютное пространство с современным интерьером и приятными деталями.</p>
+        </article>
+        <article class="reveal">
+          <span>02</span>
+          <h3>Напитки не только про классику</h3>
+          <p>Помимо кофе, в открытом меню и соцсетях встречаются сезонные вкусы, матча, какао, лимонады, bubble tea и молочные коктейли.</p>
+        </article>
+        <article class="reveal">
+          <span>03</span>
+          <h3>Можно зайти с питомцем</h3>
+          <p>На карточках сети указано pet-friendly размещение, а также кофе навынос, Wi‑Fi и безналичная оплата.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu">
+      <div class="menu-head reveal">
+        <div>
+          <span class="kicker">Что попробовать</span>
+          <h2>Сезон меняется.<br><em>Настроение — тоже.</em></h2>
+        </div>
+        <p>Подборка из актуальных публикаций официального Telegram-канала Vanilla Coffee.</p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-item tilt reveal">
+          <span class="num">01</span>
+          <div class="menu-orb pink"></div>
+          <h3>Лаванда — черника</h3>
+          <p>Сезонный напиток с мягким ягодно-цветочным профилем.</p>
+        </article>
+        <article class="menu-item tilt reveal">
+          <span class="num">02</span>
+          <div class="menu-orb caramel"></div>
+          <h3>Фундучное пралине</h3>
+          <p>Тёплый ореховый вкус для прохладного дня.</p>
+        </article>
+        <article class="menu-item tilt reveal">
+          <span class="num">03</span>
+          <div class="menu-orb berry"></div>
+          <h3>Клюквенный пунш</h3>
+          <p>Яркая сезонная позиция без лишней тяжести.</p>
+        </article>
+        <article class="menu-item tilt reveal">
+          <span class="num">04</span>
+          <div class="menu-orb cream"></div>
+          <h3>Эклеры</h3>
+          <p>Ваниль, шоколад, сгущёнка, рафаэлло и творожный сыр.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews">
+      <div class="review-lead reveal">
+        <span class="kicker">Отзывы</span>
+        <h2>«Место, куда хочется<br><em>возвращаться снова и снова»</em></h2>
+      </div>
+
+      <div class="review-cards">
+        <blockquote class="reveal">
+          <div class="stars">★★★★★</div>
+          <p>«Очень вкусный кофе, широкий выбор напитков и приятная атмосфера. Всегда хочется вернуться.»</p>
+          <footer>По мотивам отзывов гостей · Яндекс Карты</footer>
+        </blockquote>
+        <blockquote class="reveal">
+          <div class="stars">★★★★★</div>
+          <p>«Красивое пространство, приветливые бариста и вкусная выпечка.»</p>
+          <footer>По мотивам отзывов гостей · Яндекс Карты</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section statement">
+      <div class="statement-inner reveal">
+        <span class="micro">slow coffee · soft city</span>
+        <h2>Остановиться на десять минут.<br>Остаться <em>чуть дольше.</em></h2>
+        <a class="btn light" href="#contacts">Найти ближайшую точку</a>
+      </div>
+    </section>
+
+    <section id="form" class="section contact-form-wrap">
+      <div class="form-copy reveal">
+        <span class="kicker">Связаться</span>
+        <h2>Напишите нам.<br><em>Ответим без формальностей.</em></h2>
+        <p>Оставьте контакт и коротко опишите вопрос. Для рабочей отправки форму можно подключить к Telegram, CRM, почте или webhook.</p>
+      </div>
+      <form id="leadForm" class="lead-form reveal">
+        <label><span>Имя</span><input required name="name" autocomplete="name" placeholder="Ваше имя"></label>
+        <label><span>Телефон</span><input required name="phone" autocomplete="tel" inputmode="tel" placeholder="+7 999 000-00-00"></label>
+        <label><span>Комментарий</span><textarea name="comment" rows="4" placeholder="Что вас интересует?"></textarea></label>
+        <button class="btn primary wide" type="submit">Отправить</button>
+        <p class="tiny">Нажимая кнопку, вы соглашаетесь на обработку данных для обратной связи.</p>
+        <div id="formStatus" class="form-status" role="status"></div>
+      </form>
+    </section>
+
+    <section id="contacts" class="section contacts">
+      <div class="contacts-copy reveal">
+        <span class="kicker">Контакты и гео</span>
+        <h2>Vanilla Coffee<br><em>в Балашихе.</em></h2>
+        <div class="contact-list">
+          <a href="tel:+79771777780"><span>Телефон</span><b>+7 (977) 177-77-80</b></a>
+          <a target="_blank" rel="noopener" href="https://t.me/vanillacoffeebal"><span>Telegram</span><b>@vanillacoffeebal ↗</b></a>
+          <div><span>Будни</span><b>08:00—21:00*</b></div>
+          <div><span>Выходные</span><b>09:00—21:00*</b></div>
+        </div>
+        <div class="addresses">
+          <span>Советская, 10</span>
+          <span>Заречная, 18А</span>
+          <span>Твардовского, 10А</span>
+          <span>12-я линия, 7А</span>
+        </div>
+      </div>
+
+      <div class="map-card reveal">
+        <iframe
+          title="Vanilla Coffee на карте"
+          src="https://yandex.ru/map-widget/v1/?ll=37.968354%2C55.802280&z=15&pt=37.968354,55.802280,pm2rdm"
+          width="100%" height="100%" frameborder="0" allowfullscreen="true">
+        </iframe>
+        <a class="map-overlay" target="_blank" rel="noopener" href="https://yandex.ru/maps/-/CXBhUONT">Открыть в Яндекс Картах ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#top">
+      <span class="brand-mark">V</span>
+      <span class="brand-copy"><b>Vanilla</b><small>coffee</small></span>
+    </a>
+    <p>Балашиха · кофе и немного времени для себя</p>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
