@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 180">
+<rect width="500" height="180" rx="36" fill="#f4efe9"/>
+<circle cx="82" cy="90" r="54" fill="#2d2521"/>
+<text x="82" y="112" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-style="italic" font-size="72">V</text>
+<text x="158" y="94" fill="#2d2521" font-family="Georgia,serif" font-style="italic" font-size="62">Vanilla</text>
+<text x="163" y="127" fill="#786c65" font-family="Arial,sans-serif" font-size="18" letter-spacing="8">COFFEE</text>
+</svg>
